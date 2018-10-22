@@ -12,7 +12,6 @@ public class SampleThreadRace {
 		Clicker min = new Clicker(Thread.MIN_PRIORITY);
 
 //Se arrancan los hilos
-		// max.start();
 		min.start();
 		max.start();
 
